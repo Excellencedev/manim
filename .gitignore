@@ -98,7 +98,6 @@ celerybeat-schedule
 celerybeat.pid
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -120,7 +119,6 @@ dmypy.json
 
 .floo
 .flooignore
-.vscode
 .vs
 *.xml
 *.iml
@@ -134,3 +132,5 @@ dist/
 
 # Ignore the built dependencies
 third_party/*
+config.bat
+node_modules
